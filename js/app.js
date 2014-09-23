@@ -14,6 +14,9 @@ var task1 = new Task({
 	completed: true
 });
 
-console.log(task1.toJSON());
+task1.set('title', 'newTitle');
+var title = task1.get('title')
+
+console.log(title);
 	
 })();
