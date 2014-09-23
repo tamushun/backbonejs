@@ -27,7 +27,7 @@ var task1 = new Task({
 //console.log(title);
 
 console.log(task1.toJSON());
-task1.set({title: ''}, {validate: true});
+task1.set({title: ''});
 //task1.toggle();
 console.log(task1.toJSON());
 
