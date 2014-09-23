@@ -14,6 +14,6 @@ var task1 = new Task({
 	completed: true
 });
 
-console.log(task1);
+console.log(task1.toJSON());
 	
 })();
