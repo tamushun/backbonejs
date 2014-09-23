@@ -17,6 +17,6 @@ var TaskView = Backbone.View.extend({
 	tagName: 'li'
 });
 var taskView = new TaskView({ model: task });
-console.log(taskView.el);
+console.log(taskView.$el);
 
 })();
